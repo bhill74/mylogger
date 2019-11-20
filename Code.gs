@@ -42,12 +42,3 @@ function create(title) {
     directory.createFile(filename, this.log);
   }
 };
-
-function test_() {
-  logger = new create("sample");
-  
-  logger.add("the first line");
-  logger.add("the second line");
-  logger.send();
-  logger.save("sample");
-}
